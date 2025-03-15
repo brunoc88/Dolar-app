@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin: 10% 0;
+}
+
+.container {
+    display: flex; /* Activa flexbox */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas */
+    justify-content: center; /* Centra las cajas en la pantalla */
+    gap: 15px; /* Espacio entre los elementos */
+    padding: 20px;
+}
+
+.dolar {
+    max-width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    flex: 1 1 250px; /* Permite que los elementos se ajusten al tamaño disponible */
+}
+
+.info {
+    display: flex;
+    justify-content: space-between; /* Separa los elementos de compra y venta */
+    padding: 5px;
+}
+
+.nombre{
+    background-color: blueviolet;
+}
+
+.compra{
+    background-color: green;
+}
+
+.venta{
+    background-color: red;
+}
+
+.actualizacion{
+    background-color: rgb(0, 89, 255);
+}
